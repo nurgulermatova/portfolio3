@@ -27,6 +27,14 @@ body {
   padding: 0 15px;
 }
 
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
   background-color: var(--accent);
 }
@@ -76,4 +84,96 @@ body {
 
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+
+.header-logo:hover {
+  color: aqua;
+}
+
+.intro {
+  padding: 60px 0;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-left {
+  width: 30%;
+}
+
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-right {
+  width: 60%;
+}
+
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+
+.contacts {
+  margin-bottom: 60px;
+}
+
+.contacts ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts li {
+  text-align: center;
+}
+
+.skills {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+
+.code-example {
+  text-align: center;
+}
+
+.code-example p {
+  font-style: italic;
+}
+
+.code-example b {
+  font-style: normal;
+}
+
+.code-example pre {
+  width: 95%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.2em;
+  color: var(--pure-white);
+  background-color: var(--accent);
+  border-radius: 8px;
 }
