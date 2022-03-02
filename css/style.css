@@ -1,6 +1,6 @@
 :root {
-  --accent: #174180;
-  --accent-light: #3764a7;
+  --accent: #7a1010;
+  --accent-light: #a72222;
   --pure-white: #fff;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .header-logo:hover {
-  color: aqua;
+  color: rgb(176, 179, 22);
 }
 
 .intro {
