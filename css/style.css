@@ -87,7 +87,7 @@ body {
 }
 
 .header-logo:hover {
-  color: rgb(176, 179, 22);
+  color: rgb(236, 240, 15);
 }
 
 .intro {
@@ -176,4 +176,28 @@ body {
   color: var(--pure-white);
   background-color: var(--accent);
   border-radius: 8px;
+}
+
+.education {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.education ul {
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.education li:hover {
+  color: rgb(236, 240, 15);
+}
+
+.language li:hover {
+  color: rgb(240, 116, 15);
+}
+.footer {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  color: var(--pure-white);
+  background-color: var(--accent);
 }
